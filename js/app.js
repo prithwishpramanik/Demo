@@ -1,19 +1,32 @@
-const counters = document.querySelectorAll('.stats');
-const speed = 200;
+var a = 0;
+$(window).scroll(function() {
 
-counters.forEach((counter) => {
-    const updateCount = () => {
-        const target = parseInt(counter.getAttribute('data-target'));
-        const stats = parseInt(counter.innerText);
-        const increment = Math.trunc(target / speed);
+    var oTop = $('#counter').offset().top - window.innerHeight;
+    if (a === 0 && $(window).scrollTop() > oTop) {
+        $('.stats').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-target');
+            $({
+                countNum: $this.text()
+            }).animate({
+                    countNum: countTo
+                },
 
-        if (stats < target) {
-            counter.innerText = stats + increment;
-            setTimeout(updateCount, 1);
-        } else {
-            counter.innerText = target;
-        }
-    };
-    updateCount();
+                {
+
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function() {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                        $this.text(this.countNum);
+                        //alert('finished');
+                    }
+
+                });
+        });
+        a = 1;
+    }
+
 });
-
