@@ -9,14 +9,17 @@ a.nav-link.active {
     margin-left: 1rem;
     font-weight: 700;
     font-size: large;
-    border-radius: 40px;
+    border-radius: 21px;
     border: 3px solid black;
     margin-right: 1rem;
 }
 a.nav-link.active:hover{
     background-color:yellow;
 }
-a.nav-link.active {}
+.justify-content-center {
+    justify-content: right!important;
+}
+
 
 h5 {
     text-align: justify;
