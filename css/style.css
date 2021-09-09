@@ -4,22 +4,78 @@ html,body{
     margin: 0px;
     padding: 0px;
     overflow-x: clip;
+    top: 0;
+    left: 0;
 }
 a.nav-link.active {
     margin-left: 1rem;
     font-weight: 700;
     font-size: large;
     border-radius: 21px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     margin-right: 1rem;
 }
-a.nav-link.active:hover{
-    background-color:yellow;
-}
+/* a.nav-link.active:hover{
+    background-color:white;
+    color: black;
+} */
 .justify-content-center {
     justify-content: right!important;
 }
+.navbar{
+    position: sticky;
+}
 
+.navbar1::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.68;
+    
+
+}
+#pgs{
+    color: white;
+}
+#pgs:hover{
+    
+    background-color:white;
+    color: black;
+}
+#pgs1{
+    color: white;
+}
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 655px;
+  
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("banner1.jpeg") no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    border: 3px solid white;
+    border-top: 0;
+    
+    border-bottom-left-radius: 45px ;
+    border-bottom-right-radius: 45px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
 
 h5 {
     text-align: justify;
@@ -38,6 +94,27 @@ h5 {
 block.plus {
     font-size: xxx-large;
     font-weight: 700;
+}
+
+.imgstyle{
+    width: 100%!important;
+}
+.carousel-inner {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+
+}
+.carousel {
+    padding-left: 18%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.carousel-control-next {
+    right: 191px;
+}
+.carousel-control-prev {
+    left: 206px;
 }
 
 #team{
