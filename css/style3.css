@@ -1,0 +1,137 @@
+.imgs{
+  height: 100%;
+}
+.imgs:hover{
+  height: 100%;
+ /* translate: ; */
+ transform: scale(1.5);
+ z-index: 1;
+}
+
+.flex1-design{
+  margin: 60px 1px;
+  max-width: 100%;
+
+}
+body{
+  background-color: #fff3bf;
+}
+a.nav-link.active {
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: large;
+  border-radius: 21px;
+  /* border: 3px solid black; */
+  margin-right: 1rem;
+}
+/* a.nav-link.active:hover{
+  background-color:white;
+  color: black;
+} */
+.justify-content-center {
+  justify-content: right!important;
+}
+.navbar{
+  position: sticky;
+}
+
+.navbar1::before{
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.68;
+  
+
+}
+#pgs{
+  color: white;
+}
+#pgs:hover{
+  
+  background-color:white;
+  color: black;
+}
+#pgs1{
+  color: white;
+}
+/* #geeks1 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: rgb(58, 238, 58);
+}
+
+
+
+#geeks2 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: rgb(2, 94, 25);
+}
+
+/* #geeks2::before {
+  content: "";
+  width: 50%;
+  height: 100px;
+  position: absolute;
+  top: -48px;
+  left: 0;
+  background: rgb(2, 94, 25);
+  transform: skewY(8deg);
+} */
+/* 
+#geeks2::after {
+  content: "";
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: -48px;
+  right: 0;
+  background: rgb(2, 94, 25);
+  transform: skewY(-10deg);
+} */ 
+.top-part{
+  background:#fce065;
+  transform: skew(0deg, -10deg) ;
+  /* padding: 100px 0px; */
+  /* transform: scale(20); */
+  margin: 0px auto;
+}
+
+.bottom-part{
+  background: #ffd000;
+  transform: skew(0deg, 10deg) ;
+  margin: 0px auto;
+  height: 53rem;
+  
+  
+}
+
+.skew-content{
+  transform: skew(0deg,10deg);
+  /* padding:100px 200px; */
+  
+}
+.skew-content1{
+  transform: skew(0deg,-10deg);
+  /* padding:100px 200px; */
+  
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.card:hover{
+  transform: scale(1.15);
+}
