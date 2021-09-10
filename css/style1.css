@@ -1,9 +1,50 @@
+a.nav-link.active {
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 21px;
+    /* border: 3px solid black; */
+    margin-right: 1rem;
+  }
+  /* a.nav-link.active:hover{
+    background-color:white;
+    color: black;
+  } */
+  .justify-content-center {
+    justify-content: right!important;
+  }
+  .navbar{
+    position: sticky;
+  }
+  
+  .navbar1::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.68;
+    
+  
+  }
+  #pgs{
+    color: white;
+  }
+  #pgs:hover{
+    
+    background-color:white;
+    color: black;
+  }
+  #pgs1{
+    color: white;
+  }
 .teamcard{
     width: 18rem;
     position: absolute;
     top: 23rem;
     margin-left: 15px;
-
+    
     background: rgba(255,255,255,0.10);
     backdrop-filter: saturate(180%) blur(10px);
     display: none;
@@ -12,8 +53,17 @@
 
 #team{
     display: none;
+    padding-top: 130px;
+    height: 60%;
 }
 .teamcard:hover{
     transform: scale(1.2);
+}
+.jumb{
+position:absolute;
+width: 100%;
+height:60%;
+top: 0;
+left: 0;
 }
 

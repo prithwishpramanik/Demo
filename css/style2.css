@@ -12,6 +12,48 @@ body {
     color: #fff;
     overflow-x: hidden;
     padding-bottom: 50px;
+    top: 0;
+}
+a.nav-link.active {
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 21px;
+    /* border: 3px solid black; */
+    margin-right: 1rem;
+}
+/* a.nav-link.active:hover{
+    background-color:white;
+    color: black;
+} */
+.justify-content-center {
+    justify-content: right!important;
+}
+.navbar{
+    position: sticky;
+}
+
+.navbar1::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.68;
+    
+
+}
+#pgs{
+    color: white;
+}
+#pgs:hover{
+    
+    background-color:white;
+    color: black;
+}
+#pgs1{
+    color: white;
 }
 
 
@@ -19,8 +61,13 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-    background: #9e5103;
+    background: #572202;
     padding: 100px 0;
+    position:absolute;
+    width: 100%;
+    height:60%;
+    top: 0;
+    left: 0;
 }
 
 .container {
@@ -28,6 +75,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    top: 0;
 }
 
 h1 {
@@ -39,8 +87,12 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-    background: #edb57b;
-    padding: 50px 0;
+    /* background: #f5bc9a; */
+    background: #1E9600;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b05b28, #f5bc9a, #c2510e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b05b28, #f5bc9a, #c2510e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 500px 0;
 }
 
 .timeline ul li {
@@ -49,7 +101,7 @@ h1 {
     width: 6px;
     margin: 0 auto;
     padding-top: 50px;
-    background: #fff;
+    background: #572202;
 }
 
 .timeline ul li::after {
@@ -70,7 +122,7 @@ h1 {
     bottom: 0;
     width: 324px;
     padding: 15px;
-    background: #e04c07;
+    background:  #8a4a24;
 }
 
 .timeline ul li div::before {
@@ -89,7 +141,7 @@ h1 {
 .timeline ul li:nth-child(odd) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #f45b69 transparent transparent;
+    border-color: transparent #8a4a24 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -99,7 +151,7 @@ h1 {
 .timeline ul li:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #f45b69;
+    border-color: transparent transparent transparent  #8a4a24;
 }
 
 time {
@@ -118,7 +170,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-    background: #f45b69;
+    background:  #8a4a24;
 }
 
 .timeline ul li div {
@@ -168,7 +220,7 @@ time {
     .timeline ul li:nth-child(even) div::before {
         left: -15px;
         border-width: 8px 16px 8px 0;
-        border-color: transparent #f45b69 transparent transparent;
+        border-color: transparent #bd6028 transparent transparent;
     }
 }
 
