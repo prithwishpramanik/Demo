@@ -39,23 +39,39 @@ a.nav-link.active {
 }
 #pgs{
     color: white;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size: 1.2rem;
+    
 }
 #pgs:hover{
     
     background-color:white;
     color: black;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Bree Serif', serif;
 }
 #pgs1{
     color: white;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 4px;
+    padding-left: 15px;
+    font-size: 1.67rem;
+    text-shadow: 0 0 3px black, 0 0 7px black;
 }
+
 
 
 
 #home{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    text-align: center;
+    padding: 40px 0px;
     height: 655px;
   
 
@@ -74,8 +90,35 @@ a.nav-link.active {
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.89;
+    opacity: 0.95;
 }
+.h-primary{
+   padding: 50px 0px; 
+   margin-bottom: 80px;
+   font-family: 'Alfa Slab One', cursive;
+   font-size: 2.7rem;
+   text-shadow: 0 0 3px white, 0 0 7px whitesmoke;
+   letter-spacing: 1px;
+   
+  
+}
+.h-primary:hover{
+    padding: 50px 0px; 
+    margin-bottom: 80px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3rem;
+    text-shadow: 0 0 4px cyan, 0 0 12px cyan; 
+    
+   
+ }
+ .para{
+     padding: 78px 90px 2px 90px;
+     font-family: 'Bree Serif', serif;
+     /* font-family: 'Merriweather Sans', sans-serif; */
+     font-size: 1.66rem;
+     font-weight: 600;
+     text-shadow: 0 0 3px white, 0 0 5px whitesmoke;
+ }
 
 h5 {
     text-align: justify;
