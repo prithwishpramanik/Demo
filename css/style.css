@@ -79,50 +79,39 @@ a.nav-link.active {
 #home::before{
     content: "";
     position: absolute;
-    background: url("banner1.jpeg") no-repeat center center/cover;
+    background: url("Untitled design (20).png") no-repeat center center/cover;
     top: 0;
     left: 0;
     border: 3px solid white;
     border-top: 0;
     
-    border-bottom-left-radius: 45px ;
-    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 85px ;
+    border-bottom-right-radius: 85px;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.95;
+    opacity: 1;
 }
 .h-primary{
-   padding: 50px 0px; 
-   margin-bottom: 80px;
+   padding: 250px 0px 0px 0px; 
+   margin-bottom: 40px;
    font-family: 'Alfa Slab One', cursive;
    font-size: 2.7rem;
-   text-shadow: 0 0 3px white, 0 0 7px whitesmoke;
+   text-shadow: 0 0 72px black, 0 0 100px black;
    letter-spacing: 1px;
+   color:white;
    
   
 }
-.h-primary:hover{
-    padding: 50px 0px; 
-    margin-bottom: 80px;
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 3rem;
-    text-shadow: 0 0 4px cyan, 0 0 12px cyan; 
-    
-   
- }
- .para{
-     padding: 78px 90px 2px 90px;
-     font-family: 'Bree Serif', serif;
-     /* font-family: 'Merriweather Sans', sans-serif; */
-     font-size: 1.66rem;
-     font-weight: 600;
-     text-shadow: 0 0 3px white, 0 0 5px whitesmoke;
- }
+
+.h1, h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+} 
 
 h5 {
     text-align: justify;
-    font-size: x-large;
+    font-size: 2.5rem;
     font-weight: 900;
     color: #039e32;
     margin-top: 1rem;
@@ -134,13 +123,14 @@ h5 {
     font-weight: bolder;
     font-size: xxx-large;
 }
-block.plus {
+.plus {
     font-size: xxx-large;
     font-weight: 700;
 }
 
 .imgstyle{
     width: 100%!important;
+    border-radius: 3rem;
 }
 .carousel-inner {
     position: relative;
@@ -169,4 +159,105 @@ block.plus {
     text-decoration-line: underline;
     text-align: center;
 }
+
+
+/*affiliation and achievement section*/
+.services-container{
+    margin-top: 58px;
+}
+
+#services{
+    margin: 34px;
+    margin-top: 12px; 
+    display: flex;
+    
+
+
+}
+#services .box{
+    border: 3px solid rgb(102, 4, 4);
+    padding: 27px;
+    margin: 5px;
+    border-radius: 9px;
+    background-color: rgb(250, 240, 227);
+    text-align: center;
+}
+
+#services .box img{
+    height: 212px;
+    display: block;
+    margin: auto;
+    border-radius: 17px;
+   
+}
+
+
+/*Waves*/
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 400px;
+    color: black;
+  }
+  /* Animation */
+  .parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+  .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+    .waves {
+      height: 40px;
+      min-height: 40px;
+    }
+    .content {
+      height: 30vh;
+    }
+  }
+  
+  /*Other*/
+  
+  .unique-color-dark {
+    background-color: #0a0a0a !important;
+  }
+  
+  .bg-light {
+    background-color: #0a0a0a !important;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .custom-color {
+    background-color: #0a0a0a !important
+  }
 
