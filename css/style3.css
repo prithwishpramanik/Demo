@@ -3,7 +3,7 @@
 }
 .imgs:hover{
   height: 100%;
- transform: scale(1.5);
+ transform: scale(1.2);
 }
 
 .flex1-design{
@@ -90,9 +90,10 @@ a.nav-link.active {
 .bottom-part{
   /* background: #ffd000; */
   background:  #e89802;
-  transform: skew(0deg, 10deg) ;
+  transform: skew(0deg, 7deg) ;
   margin: 0px auto;
-  height: 53rem;
+  height:27rem
+
   
   
 }
@@ -107,7 +108,7 @@ a.nav-link.active {
   
 }
 .skew-content1{
-  transform: skew(0deg,-10deg);
+  transform: skew(0deg,-7deg);
   /* padding:100px 200px; */
   
 }
