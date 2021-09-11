@@ -60,6 +60,17 @@ a.nav-link.active {
     height: 100%;
 }
 
+.teamcard1{
+    width: 18rem;
+    position: absolute;
+
+    margin-left: 15px;
+
+    background: rgba(255,255,255,0.10);
+    backdrop-filter: saturate(180%) blur(10px);
+    display: none;
+}
+
 
 .teamcard{
     width: 18rem;
