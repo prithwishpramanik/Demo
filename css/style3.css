@@ -92,7 +92,7 @@ a.nav-link.active {
   background:  #e89802;
   transform: skew(0deg, 7deg) ;
   margin: 0px auto;
-  height:27rem
+  height:58rem;
 
   
   
@@ -133,6 +133,47 @@ a.nav-link.active {
 .card:hover{
   transform: scale(1.15);
 }
+
+/*Clients section*/
+#client-section{
+  padding-top: 12px;
+}
+.h-primary1{
+  text-align: center;
+  font-size: 2.8rem;
+}
+.below-cont{
+  padding-top: 30px;
+}
+/* #client-section::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  z-index: -1;
+  opacity: 0.8;
+} */
+#clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
+#clients1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
+#clients img{
+  height: 144px;
+  padding: 12px 74px;
+}
+#clients1 img{
+  height: 144px;
+  padding: 12px 74px;
+}
+
 
 /*Waves*/
 
@@ -187,11 +228,11 @@ a.nav-link.active {
 /*Other*/
 
 .unique-color-dark {
-  background-color: #7289da !important;
+  background-color: black !important;
 }
 
 .bg-light {
-  background-color: #7289DA !important;
+  background-color: black !important;
 }
 
 .navbar-brand {
@@ -199,6 +240,6 @@ a.nav-link.active {
 }
 
 .custom-color {
-  background-color: #7289DA !important
+  background-color: black !important
 }
 

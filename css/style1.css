@@ -153,11 +153,11 @@ left: 0;
 /*Other*/
 
 .unique-color-dark {
-  background-color: #7289da !important;
+  background-color:black !important;
 }
 
 .bg-light {
-  background-color: #7289DA !important;
+  background-color: black!important;
 }
 
 .navbar-brand {
@@ -165,7 +165,7 @@ left: 0;
 }
 
 .custom-color {
-  background-color: #7289DA !important
+  background-color: black !important
 }
 
 
