@@ -13,6 +13,7 @@
 }
 body{
   background-color: #faea87;
+  display:none;
 }
 a.nav-link.active {
   margin-left: 1rem;

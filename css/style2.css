@@ -99,8 +99,10 @@ h1 {
     background: #1E9600;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #b05b28, #f5bc9a, #c2510e);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #b05b28, #f5bc9a, #c2510e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-right: 500px;
+    padding-left: 500px;
+    padding-top: 500px;
 
-    padding: 500px 0;
 }
 
 .timeline ul li {
