@@ -63,12 +63,16 @@ a.nav-link.active {
 .teamcard1{
     width: 18rem;
     position: absolute;
-
-    margin-left: 15px;
-
-    background: rgba(255,255,255,0.10);
+    top: 46rem;
+    margin-left: 20px;
+    background: rgba(255,255,256,0.10);
     backdrop-filter: saturate(180%) blur(10px);
     display: none;
+
+
+}
+.teamcard1:hover{
+    transform: scale(1.2);
 }
 
 
