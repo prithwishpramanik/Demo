@@ -12,13 +12,9 @@ a.nav-link.active {
     font-weight: 700;
     font-size: large;
     border-radius: 21px;
-    /* border: 3px solid black; */
     margin-right: 1rem;
 }
-/* a.nav-link.active:hover{
-    background-color:white;
-    color: black;
-} */
+
 .justify-content-center {
     justify-content: right!important;
 }
@@ -66,32 +62,20 @@ a.nav-link.active {
 
 
 #home{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    text-align: center;
-    padding: 40px 0px;
-    height: 655px;
-  
+  height: 655px;
+}
 
+#coverimage{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-bottom-left-radius: 85px ;
+  border-bottom-right-radius: 85px;
+  border: 2px solid black;
 }
-#home::before{
-    content: "";
-    position: absolute;
-    background: url("Untitled design (20).png") no-repeat center center/cover;
-    top: 0;
-    left: 0;
-    border: 3px solid white;
-    border-top: 0;
-    
-    border-bottom-left-radius: 85px ;
-    border-bottom-right-radius: 85px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 1;
-}
+
 .h-primary{
    padding: 250px 0px 0px 0px; 
    margin-bottom: 40px;
